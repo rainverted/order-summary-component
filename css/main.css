@@ -1,0 +1,53 @@
+/* BACKGROUND 
+svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+*/
+body {
+  overflow: hidden;
+  background-color: #e0e8ff;
+}
+
+/*  BODY  */
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+/*  ORDER CARD  */
+
+.bg {
+  width: 1440px;
+}
+
+.hero {
+  border-radius: 20px 20px 0 0;
+}
+.card {
+  display: inline-block;
+  background-color: white;
+  border-radius: 20px;
+  width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*  ATTRIBUTION  */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
